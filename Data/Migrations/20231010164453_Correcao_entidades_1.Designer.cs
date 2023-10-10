@@ -3,14 +3,16 @@ using System;
 using Data.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Data.Migrations
 {
     [DbContext(typeof(ContextoDados))]
-    partial class ContextoDadosModelSnapshot : ModelSnapshot
+    [Migration("20231010164453_Correcao_entidades_1")]
+    partial class Correcao_entidades_1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
