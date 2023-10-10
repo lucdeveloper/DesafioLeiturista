@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(ContextoDados))]
-    [Migration("20231010164453_Correcao_entidades_1")]
-    partial class Correcao_entidades_1
+    [Migration("20231010164852_correcao_entidade_1")]
+    partial class correcao_entidade_1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
